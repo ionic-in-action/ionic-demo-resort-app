@@ -1,0 +1,27 @@
+<ion-view title="Your Reservation">
+  <ion-content>
+    <div class="list card" ng-if="reservation">
+      <div class="item item-icon-left">
+        <i class="icon ion-calendar"></i> Check in: {{reservation.checkin | date}}
+      </div>
+      <div class="item item-icon-left">
+        <i class="icon ion-calendar"></i> Check out: {{reservation.checkout | date}}
+      </div>
+      <div class="item item-icon-left">
+        <i class="icon ion-calendar"></i> Room service: {{reservation.service | date}}
+      </div>
+      <div class="item item-icon-left">
+        <i class="icon ion-home"></i> Room: {{reservation.room}}
+      </div>
+      <div class="item item-icon-left">
+        <i class="icon ion-home"></i> Type: 2 Bed, 1 Bath
+      </div>
+      <div class="item item-icon-left">
+        <i class="icon ion-model-s"></i> Parking space: {{reservation.parkingSpace}}
+      </div>
+      <div class="item item-icon-left">
+        <i class="icon ion-card"></i> Daily rate: {{reservation.rate | currency}}
+      </div>
+    </div>
+  </ion-content>
+</ion-modal-view>

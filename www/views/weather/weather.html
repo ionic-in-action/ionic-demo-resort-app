@@ -1,0 +1,11 @@
+<ion-view title="7 Day Forecast">
+  <ion-content>
+    <div class="list card">
+      <div class="item item-divider">Sunshine Resort Forecast</div>
+      <div class="item item-icon-left" ng-repeat="day in weather.list">
+        <span class="icon"><img ng-src="http://openweathermap.org/img/w/{{day.weather[0].icon}}.png" width="32" /></span> {{day.dt | date:'EEEE'}}, {{day.weather[0].description}}
+        <p>High: {{day.temp.max}}&deg;F Low: {{day.temp.min}}&deg;F</p>
+      </div>
+    </div>
+  </ion-content>
+</ion-modal-view>

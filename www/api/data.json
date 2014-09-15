@@ -1,0 +1,139 @@
+{
+  "menu": [
+    {
+      "meal": "Breakfast",
+      "items": [
+        { "item": "Eggs", "price": 2.50 },
+        { "item": "Cereal", "price": 3.00 },
+        { "item": "Fruit", "price": 4.00 },
+        { "item": "Pancakes", "price": 5.50 },
+        { "item": "Bacon", "price": 4.50 }
+      ]
+    },
+    {
+      "meal": "Lunch",
+      "items": [
+        { "item": "Grilled Cheese", "price": 3.50 },
+        { "item": "Salad", "price": 4.50 },
+        { "item": "Hamburger & Fries", "price": 6.50 },
+        { "item": "Pork Sandwich & Fries", "price": 6.50 },
+        { "item": "Fish Sandwich & Fries", "price": 5.50 },
+        { "item": "Tofu Sandwish & Vegitables", "price": 5.50 },
+        { "item": "Chicken Fingers", "price": 4.50 }
+      ]
+    },
+    {
+      "meal": "Dinner",
+      "items": [
+        { "item": "Chicken Fried Chicken", "price": 8.50 },
+        { "item": "Chicken Parmesean", "price": 7.50 },
+        { "item": "Steak & Vegitables", "price": 11.50 },
+        { "item": "Lobster & Rice", "price": 14.50 },
+        { "item": "Shrimp Scampi & Pasta", "price": 12.50 },
+        { "item": "Tofu Pasta Primavera", "price": 10.50 },
+        { "item": "10\" Pizza", "price": 7.50 }
+      ]
+    },
+    {
+      "meal": "Dessert",
+      "items": [
+        { "item": "Ice Cream", "price": 3.50 },
+        { "item": "Cake", "price": 4.50 },
+        { "item": "Strawberry Sundae", "price": 4.50 }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "day": "Sunday",
+      "events": [
+        { "day": "Sunday", "time": "8:00am",  "location": "Fitness Center", "event": "Morning Yoga" },
+        { "day": "Sunday", "time": "10:00am", "location": "Beach", "event": "Surfing Lessons" },
+        { "day": "Sunday", "time": "11:00am", "location": "Community Center", "event": "Bingo" },
+        { "day": "Sunday", "time": "1:00pm",  "location": "Community Center", "event": "Ice Cream Social" },
+        { "day": "Sunday", "time": "2:00pm",  "location": "Community Center", "event": "Wine Tasting" },
+        { "day": "Sunday", "time": "4:00pm",  "location": "Front Desk", "event": "Resort Tour" },
+        { "day": "Sunday", "time": "6:00pm",  "location": "Pool 2", "event": "Sing and Swim" },
+        { "day": "Sunday", "time": "8:00pm",  "location": "Dock", "event": "Sunset Cruise" }
+      ]
+    },
+    {
+      "day": "Monday",
+      "events": [
+        { "day": "Monday", "time": "8:00am",  "location": "Fitness Center", "event": "Morning Training" },
+        { "day": "Monday", "time": "10:00am", "location": "Beach", "event": "Snorkeling Lessons" },
+        { "day": "Monday", "time": "11:00am", "location": "Community Center", "event": "Bingo" },
+        { "day": "Monday", "time": "1:00pm",  "location": "Community Center", "event": "Lawn Darts" },
+        { "day": "Monday", "time": "2:00pm",  "location": "Community Center", "event": "Beer Tasting" },
+        { "day": "Monday", "time": "4:00pm",  "location": "Front Desk", "event": "Resort Tour" },
+        { "day": "Monday", "time": "6:00pm",  "location": "Community Center", "event": "Poker Tournament" },
+        { "day": "Monday", "time": "8:00pm",  "location": "Pool 3", "event": "Swim in Kids Movie" }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "events": [
+        { "day": "Tuesday", "time": "8:00am",  "location": "Fitness Center", "event": "Morning Yoga" },
+        { "day": "Tuesday", "time": "10:00am", "location": "Beach", "event": "Scuba Lessons" },
+        { "day": "Tuesday", "time": "11:00am", "location": "Community Center", "event": "Build Your Own Pizza" },
+        { "day": "Tuesday", "time": "1:00pm",  "location": "Community Center", "event": "Ice Cream Social" },
+        { "day": "Tuesday", "time": "2:00pm",  "location": "Pool 1", "event": "Adults Only Swim" },
+        { "day": "Tuesday", "time": "4:00pm",  "location": "Front Desk", "event": "Resort Tour" },
+        { "day": "Tuesday", "time": "6:00pm",  "location": "Pool 3", "event": "Cannonball Competition" },
+        { "day": "Tuesday", "time": "8:00pm",  "location": "Dock", "event": "Sunset Cruise" }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "events": [
+        { "day": "Tuesday", "time": "8:00am",  "location": "Fitness Center", "event": "Morning Resort Run" },
+        { "day": "Tuesday", "time": "10:00am", "location": "Beach", "event": "Wildlife Tour" },
+        { "day": "Tuesday", "time": "11:00am", "location": "Community Center", "event": "Tennis Challenge" },
+        { "day": "Tuesday", "time": "1:00pm",  "location": "Pool 2", "event": "Adults Only Swim" },
+        { "day": "Tuesday", "time": "2:00pm",  "location": "Community Center", "event": "Cheese Tasting" },
+        { "day": "Tuesday", "time": "4:00pm",  "location": "Front Desk", "event": "Resort Tour" },
+        { "day": "Tuesday", "time": "6:00pm",  "location": "Pool 3", "event": "Happy Hour" },
+        { "day": "Tuesday", "time": "8:00pm",  "location": "Beach", "event": "Crab Search" }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "events": [
+        { "day": "Monday", "time": "8:00am",  "location": "Fitness Center", "event": "Morning Yoga" },
+        { "day": "Monday", "time": "10:00am", "location": "Community Center", "event": "Build and Fly Kites" },
+        { "day": "Monday", "time": "11:00am", "location": "Community Center", "event": "Hole in One Challenge" },
+        { "day": "Monday", "time": "1:00pm",  "location": "Community Center", "event": "Cooking Local Cuisine" },
+        { "day": "Monday", "time": "2:00pm",  "location": "Community Center", "event": "Basketball" },
+        { "day": "Monday", "time": "4:00pm",  "location": "Front Desk", "event": "Resort Tour" },
+        { "day": "Monday", "time": "6:00pm",  "location": "Community Center", "event": "Hay Ride" },
+        { "day": "Monday", "time": "8:00pm",  "location": "Pool 3", "event": "Live Music" }
+      ]
+    },
+    {
+      "day": "Friday",
+      "events": [
+        { "day": "Monday", "time": "8:00am",  "location": "Fitness Center", "event": "Morning P90X" },
+        { "day": "Monday", "time": "10:00am", "location": "Community Center", "event": "Kayaking" },
+        { "day": "Monday", "time": "11:00am", "location": "Community Center", "event": "Kids Crafts" },
+        { "day": "Monday", "time": "1:00pm",  "location": "Community Center", "event": "Driving Range Contest" },
+        { "day": "Monday", "time": "2:00pm",  "location": "Pool 1", "event": "Adults Only Swim" },
+        { "day": "Monday", "time": "4:00pm",  "location": "Front Desk", "event": "Resort Tour" },
+        { "day": "Monday", "time": "6:00pm",  "location": "Community Center", "event": "Family Style Dinner" },
+        { "day": "Monday", "time": "8:00pm",  "location": "Pool 3", "event": "Live Music" }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "events": [
+        { "day": "Sunday", "time": "8:00am",  "location": "Fitness Center", "event": "Morning Fitness" },
+        { "day": "Sunday", "time": "10:00am", "location": "Clubhouse", "event": "Golf Scramble" },
+        { "day": "Sunday", "time": "11:00am", "location": "Community Center", "event": "Bridge" },
+        { "day": "Sunday", "time": "1:00pm",  "location": "Community Center", "event": "Sand Castle Competition" },
+        { "day": "Sunday", "time": "2:00pm",  "location": "Community Center", "event": "Happy Hour" },
+        { "day": "Sunday", "time": "4:00pm",  "location": "Front Desk", "event": "Resort Tour" },
+        { "day": "Sunday", "time": "6:00pm",  "location": "Beach", "event": "BBQ" },
+        { "day": "Sunday", "time": "8:00pm",  "location": "Dock", "event": "Stargazing Cruise" }
+      ]
+    }
+  ]
+}

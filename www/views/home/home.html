@@ -1,0 +1,32 @@
+<ion-view title="Home">
+  <ion-content>
+    <div class="card">
+      <div class="item item-divider">Welcome to Sunshine Resort</div>
+      <div class="item item-text-wrap">
+        We hope you enjoy your stay! Here you can see the daily schedule. You can view the events list to add things to your schedule or discover local places in the menu.
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="item item-divider">Current Weather</div>
+      <div class="item" ng-if="!weather"><span class="icon ion-loading-d"></span></div>
+      <div class="item item-text-wrap">
+        <p>Currently {{weather.main.temp}}&deg;F and {{weather.weather[0].description}}.</p>
+      </div>
+      <a class="item button button-positive button-block" href="#/weather">See Forecast</a>
+    </div>
+
+    <div class="card">
+      <div class="item item-divider">Today's Events</div>
+      <div class="item" ng-if="!today"><span class="icon ion-loading-d"></span></div>
+      <div class="item" ng-repeat="item in today.events">{{item.event}}, {{item.time}}</div>
+      <a class="item button button-positive button-block" href="#/events">See all events</a>
+    </div>
+
+    <div class="card">
+      <div class="item item-icon-left" ng-click="openComments()">
+        <i class="icon ion-chatbubble"></i> Send us a comment
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

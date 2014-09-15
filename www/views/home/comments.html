@@ -1,0 +1,30 @@
+<ion-modal-view>
+  <ion-header-bar class="bar-dark">
+    <h1 class="title">Send Us Comments</h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="cancelComments()">Cancel</button>
+    </div>
+  </ion-header-bar>
+  <ion-content class="comments">
+    <div class="list card">
+      <div class="item">
+        <div class="item-label">Message</div>
+      </div>
+      <div class="item item-input">
+        <textarea ng-model="comment.message" name="message" rows="10"></textarea>
+      </div>
+      <div class="item">
+        <div class="item-label">Rate your experience</div>
+      </div>
+      <div class="item range range-balanced">
+        <input type="range" ng-model="comment.rating" name="rating" min="1" max="5">
+        <i class="icon ion-ios7-heart"></i>
+        <i class="icon" ng-class="{'ion-ios7-heart': comment.rating > 1, 'ion-ios7-heart-outline': comment.rating < 2}"></i>
+        <i class="icon" ng-class="{'ion-ios7-heart': comment.rating > 2, 'ion-ios7-heart-outline': comment.rating < 3}"></i>
+        <i class="icon" ng-class="{'ion-ios7-heart': comment.rating > 3, 'ion-ios7-heart-outline': comment.rating < 4}"></i>
+        <i class="icon" ng-class="{'ion-ios7-heart': comment.rating > 4, 'ion-ios7-heart-outline': comment.rating < 5}"></i>
+      </div>
+      <button class="button button-block button-balanced" ng-click="sendComments()">Send</button>
+    </div>
+  </ion-content>
+</ion-modal-view>

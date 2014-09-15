@@ -1,0 +1,38 @@
+{
+  "name": "mockfirebase",
+  "version": "0.2.9",
+  "homepage": "https://github.com/katowulf/mockfirebase",
+  "authors": [
+    "Kato"
+  ],
+  "description": "An experimental Firebase stub/spy library for writing unit tests (not supported by Firebase)",
+  "main": "./dist/mockfirebase.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "firebase",
+    "mock"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "helpers",
+    "gulpfile.js",
+    "package.json",
+    "src"
+  ],
+  "_release": "0.2.9",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.9",
+    "commit": "4f8b874a3d83fa1ccd55681137d4f0fed1218cbe"
+  },
+  "_source": "git://github.com/katowulf/mockfirebase.git",
+  "_target": "~0.2.9",
+  "_originalSource": "mockfirebase"
+}

@@ -1,0 +1,19 @@
+<ion-modal-view>
+  <ion-header-bar class="bar-dark">
+    <div class="buttons">
+      <button class="button button-clear" ng-click="cancelPreview()">Cancel</button>
+    </div>
+    <h1 class="title">Preview Order</h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-if="order.items.length" ng-click="sendOrder()">Submit</button>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+    <ion-list>
+      <ion-item ng-if="!order.items.length" class="item-divider">No items</ion-item>
+      <ion-item ng-repeat="item in order.items">
+        {{item.item}} <span class="item-note">{{item.price | currency}}
+        <ion-option-button class="button-assertive" ng-click="remove($index)">Remove</ion-option-button>
+      </ion-item>
+    </ion-list>
+</ion-modal-view>

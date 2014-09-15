@@ -1,0 +1,28 @@
+.tour {
+  z-index: 1000;
+  height: 100%;
+  background-color: #ffefd6;
+}
+.tour img {
+  height: 100%;
+  width: 100%;
+}
+.tour ion-content {
+  top: 0;
+}
+.tour .slider-pager {
+  top: 10px;
+}
+.comments .button-block {
+  margin: 0;
+}
+.room-service ion-header-bar {
+  margin-top: 44px;
+}
+.room-service ion-content {
+  top: 88px;
+}
+.item.button-block {
+  margin-top: 0;
+  border-radius: 0;
+}

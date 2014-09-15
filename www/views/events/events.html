@@ -1,0 +1,12 @@
+<ion-view title="Upcoming Events">
+  <ion-content>
+    <ul class="list">
+      <span ng-repeat="day in events">
+      <li class="item item-divider">{{day.day}}</li>
+      <li class="item" ng-repeat="event in day.events">
+        <h2>{{event.event}}</h2>
+        <p>{{event.time}}, {{event.location}}</p>
+      </li>
+    </ul>
+  </ion-content>
+</ion-view>
