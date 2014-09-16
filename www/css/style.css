@@ -1,17 +1,15 @@
 .tour {
-  z-index: 1000;
-  height: 100%;
   background-color: #ffefd6;
+  text-align: center;
+  position: absolute;
+  z-index: 100;
+}
+.tour .slider {
+  height: 100%;
+  padding-top: 20px;
 }
 .tour img {
-  height: 100%;
-  width: 100%;
-}
-.tour ion-content {
-  top: 0;
-}
-.tour .slider-pager {
-  top: 10px;
+  width: 80%;
 }
 .comments .button-block {
   margin: 0;
