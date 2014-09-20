@@ -9,7 +9,7 @@
   padding-top: 80px;
 }
 .tour img {
-  width: 80%;
+  max-height: 70%;
 }
 .comments .button-block {
   margin: 0;
